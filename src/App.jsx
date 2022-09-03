@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import Footer from './Footer';
 import Post1 from './Post1';
-import Demo from './demo';
+// import Demo from './demo';
 function App() {
   return (
     <>

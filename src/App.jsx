@@ -4,11 +4,13 @@ import Navbar from './Navbar';
 import Home from './Home';
 import Footer from './Footer';
 import Post1 from './Post1';
+import Demo from './demo';
 function App() {
   return (
     <>
 <BrowserRouter>
 <Navbar/>
+
 <Routes>
 <Route path="/" element={<Home />} />
 <Route path="/blposts/:id" element={<Post1 />} />
@@ -18,6 +20,7 @@ function App() {
 
     
     <Footer/>
+    {/* <Demo/> */}
     </>
   );
 }
